@@ -1,0 +1,14 @@
+@import '../atoms/cards/card-image/card-image.scss';
+@import '../variables/cards-variables/cards.variables.scss';
+
+.card {
+  width: $card-width;
+  border-width: $card-border-width;
+  border-color: $card-border-color;
+  border-radius: $card-border-radius;
+  border-style: $card-border-style;
+  padding: $card-padding;
+  display: flex;
+  flex-direction: column;
+  align-items: $card-align-items;
+}

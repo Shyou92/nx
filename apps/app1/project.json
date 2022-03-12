@@ -18,6 +18,7 @@
         "styles": ["apps/app1/src/styles.scss"],
         "scripts": []
       },
+
       "configurations": {
         "production": {
           "budgets": [

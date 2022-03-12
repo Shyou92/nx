@@ -1,0 +1,17 @@
+@import '../../index.scss';
+
+.button {
+  background-color: $button-like-background;
+  font-size: $button-font-size;
+  font-weight: $button-font-weight;
+  border-style: $button-border-style;
+  padding: $button-padding;
+  transition: $button-transition;
+  cursor: pointer;
+
+  &:hover,
+  &:focus {
+    background-color: $button-like-background-hover;
+    color: white;
+  }
+}

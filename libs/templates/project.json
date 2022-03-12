@@ -1,0 +1,26 @@
+{
+  "projectType": "library",
+  "root": "libs/templates",
+  "sourceRoot": "libs/templates/src",
+  "prefix": "apps",
+  "targets": {
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/templates"],
+      "options": {
+        "jestConfig": "libs/templates/jest.config.js",
+        "passWithNoTests": true
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": [
+          "libs/templates/src/**/*.ts",
+          "libs/templates/src/**/*.html"
+        ]
+      }
+    }
+  },
+  "tags": []
+}
