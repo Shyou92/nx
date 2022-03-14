@@ -27,6 +27,10 @@
   --theme-1-button-padding: 2rem 3rem;
   --theme-1-button-font-size: 20px;
 
+  /* CardList */
+
+  --theme-1-cardList-grid: 310px;
+
   /* Card */
   --theme-1-card-border-color: rgb(83, 59, 59);
   --theme-1-card-border-radius: 10px;
@@ -49,6 +53,10 @@
   --theme-2-button-padding: 1rem 2rem;
   --theme-2-button-like-hover: var(--theme-2-like-hover);
   --theme-2-button-font-size: 25px;
+
+  /* CardList */
+
+  --theme-2-cardList-grid: 400px;
 
   /* Card */
   --theme-2-card-border-color: green;
@@ -73,6 +81,10 @@
   --theme-3-button-text-color: var(--theme-3-color-white);
   --theme-3-button-like-hover: var(--theme-2-color-brand);
   --theme-3-button-border-style: dashed;
+
+  /* CardList */
+
+  --theme-3-cardList-grid: 350px;
 
   /* Card */
   --theme-3-card-border-color: grey;
