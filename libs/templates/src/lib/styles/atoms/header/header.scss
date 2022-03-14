@@ -3,7 +3,6 @@
 .header {
   height: var(--header-height);
   background-color: var(--header-background-color);
-  // color: $header-text-color;
   color: var(--theme-1-color-white);
   display: flex;
   justify-content: center;
@@ -12,5 +11,5 @@
   // justify-content: $header-justify-text;
   // align-items: $header-align-text;
   margin: 0;
-  // transition: $default-transition;
+  transition: var(--theme-3-transition);
 }
