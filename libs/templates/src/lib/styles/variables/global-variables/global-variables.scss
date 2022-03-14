@@ -1,0 +1,78 @@
+@import '../brand-variables/brand-variables.scss';
+
+  /*global iables */
+
+  /* Default Theme */
+:root {
+  --default-theme-background-color: var(--default-theme-color-brand);
+
+  --default-transition: 0.5s;
+
+  /* Theme 1 */
+
+  /* h1 */
+
+  --theme-1-header-justify-text: center;
+  --theme-1-header-align-text: center;
+  --theme-1-header-background-color: var(--theme-1-color-brand);
+
+  /* Text */
+
+  --theme-1-font-family: var(--theme-1-font-family-primary);
+
+  /* Button */
+
+  --theme-1-button-background-color: var(--theme-1-color-brand);
+  --theme-1-button-text-color: var(--theme-1-color-white);
+  --theme-1-button-padding: 2rem 3rem;
+  --theme-1-button-font-size: 20px;
+
+  /* Card */
+  --theme-1-card-border-color: rgb(83, 59, 59);
+  --theme-1-card-border-radius: 10px;
+
+  /* Theme 2 */
+
+  /* h1 */
+
+  --theme-2-header-justify-text: flex-start;
+  --theme-2-header-align-text: flex-end;
+
+  /* Text */
+
+  --theme-2-font-family: var(--theme-2-font-family-primary);
+
+  /* Button */
+
+  --theme-2-button-background-color: var(--theme-2-color-brand);
+  --theme-2-button-text-color: var(--theme-2-color-white);
+  --theme-2-button-padding: 1rem 2rem;
+  --theme-2-button-like-hover: var(--theme-2-like-hover);
+  --theme-2-button-font-size: 25px;
+
+  /* Card */
+  --theme-2-card-border-color: green;
+  --theme-2-card-border-radius: 0;
+
+  /* Theme 3 */
+
+  /* h1 */
+
+  --theme-3-header-justify-text: center;
+  --theme-3-header-align-text: flex-start;
+
+  /* Text */
+
+  --theme-3-font-family: var(--theme-3-font-family-primary);
+
+  /* Button */
+
+  --theme-3-button-background-color: var(--theme-3-color-brand);
+  --theme-3-button-padding: 2rem 4rem;
+  --theme-3-button-font-size: 30px;
+  --theme-3-button-text-color: var(--theme-3-color-white);
+
+  /* Card */
+  --theme-3-card-border-color: grey;
+  --theme-3-card-border-radius: 10px 5px;
+}

@@ -1,2 +1,4 @@
-$header-background-color: $default-theme-background-color;
-$header-height: 100px;
+:root {
+--header-background-color: var(--default-theme-color-brand);
+--header-height: 100px;
+}

@@ -1,13 +1,8 @@
-/* Variables */
-
-@import './global-variables/global-variables.scss';
-@import './variables/buttons-variables/buttons-variables.scss';
-@import './variables/cards-variables/cards.variables.scss';
-@import './variables/header-variables/header-variables.scss';
-
 /* Atoms */
 
 @import './atoms/header/header.scss';
+@import "./atoms/buttons/button-like.scss";
+@import "./atoms/cards/card-image/card-image.scss";
 
 /* Molecules */
 
@@ -16,3 +11,11 @@
 /* Organisms */
 
 @import './organisms/cardList/cardList.scss';
+
+/* Variables */
+
+@import "./variables/variables.scss";
+
+body {
+    margin: 0;
+}

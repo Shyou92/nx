@@ -1,7 +1,10 @@
+@import '../../variables/variables.scss';
+
 .header {
-  height: $header-height;
-  background-color: $header-background-color;
+  height: var(--header-height);
+  background-color: var(--header-background-color);
   // color: $header-text-color;
+  color: var(--theme-1-color-white);
   display: flex;
   justify-content: center;
   align-items: center;

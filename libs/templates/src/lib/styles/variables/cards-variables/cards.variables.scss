@@ -1,7 +1,11 @@
-$card-width: 300px;
-$card-border-width: 1px;
-$card-border-color: #000;
-$card-border-radius: 0;
-$card-border-style: solid;
-$card-padding: 10px;
-$card-align-items: center;
+@import "../global-variables/global-variables.scss";
+
+:root {
+  --card-width: 300px;
+  --card-border-width: 1px;
+  --card-border-color: #000;
+  --card-border-radius: 0;
+  --card-border-style: solid;
+  --card-padding: 10px;
+  --card-align-items: center;
+}

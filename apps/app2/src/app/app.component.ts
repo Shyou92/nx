@@ -5,9 +5,8 @@ import { Component } from '@angular/core';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss'],
 })
-
 export class AppComponent {
   title = 'app1';
-  image = '../assets/images/notFound.png';
-  class = 'theme-1';
+  image = '../assets/images/cat.jpg';
+  class = 'theme-2';
 }

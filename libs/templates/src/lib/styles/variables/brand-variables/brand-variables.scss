@@ -1,0 +1,25 @@
+  /*Brand definitions*/
+
+  /* default */
+:root {
+  --default-theme-color-brand: rgba(255, 255, 0, 0.582);
+
+  /*theme 1*/
+
+  --theme-1-font-family-primary: 'Syne Mono', monospace;
+  --theme-1-color-brand: #000;
+  --theme-1-color-white: #fff;
+
+  /*theme 2*/
+
+  --theme-2-font-family-primary: 'Smooch Sans', sans-serif;
+  --theme-2-color-brand: #00f;
+  --theme-2-like-hover: rgb(0, 225, 255);
+  --theme-2-color-white: rgb(224, 222, 222);
+
+  /*theme 3*/
+
+  --theme-3-font-family-primary: 'Dancing Script', cursive;
+  --theme-3-color-brand: rgb(185, 6, 6);
+  --theme-3-color-white: rgb(180, 180, 180);
+}

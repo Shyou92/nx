@@ -1,7 +1,11 @@
-$button-like-background: green;
-$button-like-background-hover: rgb(132, 219, 132);
-$button-font-size: 2rem;
-$button-font-weight: 400;
-$button-border-style: solid;
-$button-padding: 1rem 2rem;
-$button-transition: 0.5s;
+
+:root {
+  --button-like-background: #333;
+  --button-like-background-hover: rgb(132, 219, 132);
+  --button-font-size: 2rem;
+  --button-font-weight: 400;
+  --button-border-style: solid;
+  --button-padding: 1rem 2rem;
+  --button-transition: 0.5s;
+  --button-text-color: #000;
+}

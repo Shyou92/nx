@@ -1,0 +1,30 @@
+@import '../../../../libs/templates/src/lib/styles/index.scss';
+
+.title {
+    padding: 50px 0;
+    text-align: center;
+    background-color: var(--theme-3-color-brand);
+    margin: 0;
+  }
+
+  .theme-2 {
+    --header-background-color: var(--theme-2-color-brand);
+    --header-text-color: var(--theme-2-color-white);
+    --header-justify-text: var(--theme-2-header-justify-text);
+    --header-align-text: var(--theme-2-header-align-text);
+  
+    --button-like-background: var(--theme-2-button-background-color);
+    --button-like-background-hover: var(--theme-2-button-like-hover);
+    --button-font-family: var(--theme-2-font-family-primary);
+    --button-text-color: var(--theme-2-button-text-color);
+    --button-padding: var(--theme-2-button-padding);
+    --button-font-size: var(--theme-2-button-font-size);
+  
+    --card-width: 275px;
+    --card-border-width: 5px;
+    --card-border-color: var(--theme-2-card-border-color);
+    --card-border-radius: var(--theme-2-card-border-radius);
+    --card-border-style: solid;
+    --card-padding: 10px;
+    --card-align-items: end;
+  }
