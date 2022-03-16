@@ -10,4 +10,5 @@ export class AppComponent {
   title = 'app1';
   image = '../assets/images/notFound.png';
   class = 'theme-1';
+  cardSize = "";
 }

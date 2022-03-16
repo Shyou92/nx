@@ -1,0 +1,18 @@
+// use those css variables
+
+:host {
+
+  width: 75px;
+  height: 75px;
+
+
+  &.large {
+  width: var(--card-width, 100px);
+  height: var(--card-height, 100px);
+}
+
+  &.small {
+    width: var(--card-width, 50px);
+    height: var(--card-height, 50px)
+  }
+}

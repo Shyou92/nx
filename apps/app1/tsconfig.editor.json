@@ -1,6 +1,6 @@
 {
   "extends": "./tsconfig.json",
-  "include": ["**/*.ts"],
+  "include": ["**/*.ts", "../../libs/templates/src/lib/card-size.directive.ts"],
   "compilerOptions": {
     "types": ["jest", "node"]
   }

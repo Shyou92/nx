@@ -1,0 +1,17 @@
+// Initial css variables
+
+section[appsCardSize] {
+
+  --card-width: 350px;
+  --card-height: 350px;
+
+  &.large {
+    --card-width: 500px;
+    --card-height: 500px;
+  }
+  
+  &.small {
+    --card-width: 200px;
+    --card-height: 200px;
+  }
+}

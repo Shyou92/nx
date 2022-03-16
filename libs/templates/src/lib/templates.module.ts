@@ -1,14 +1,18 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { TemplateMarkupComponent } from './template-markup/template-markup.component';
+import { CardSizeComponent } from './card-size.directive';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
-  imports: [CommonModule],
+  imports: [CommonModule, FormsModule],
   declarations: [
-    TemplateMarkupComponent
+    TemplateMarkupComponent,
+    CardSizeComponent,
   ],
   exports: [
-    TemplateMarkupComponent
+    TemplateMarkupComponent,
+    CardSizeComponent
   ],
 })
 export class TemplatesModule {}
