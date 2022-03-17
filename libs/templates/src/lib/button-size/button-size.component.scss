@@ -1,0 +1,20 @@
+:host {
+
+  width: 75px;
+  height: 75px;
+
+
+  &.large {
+    width: var(--button-width, 100px);
+    height: var(--button-height, 100px);
+    padding: var(--button-padding, 1.5rem);
+    font-size: var(--button-font-size, 25px);
+}
+
+  &.small {
+    width: var(--button-width, 50px);
+    height: var(--button-height, 50px);
+    padding: var(--button-padding, 1.5rem);
+    font-size: var(--button-font-size, 15px);
+  }
+}

@@ -18,9 +18,16 @@
     --button-padding: var(--theme-2-button-padding);
     --button-font-size: var(--theme-2-button-font-size);
   
-    --cardList-grid: var(--theme-2-cardList-grid);
 
-    --card-width: 275px;
+    --custom-card-width-size-large: 400px;
+    --custom-card-height-size-large: 500px;
+  
+    --custom-card-width-size-small: 250px;
+    --custom-card-height-size-small: 550px;
+
+    --cardList-grid: var(--theme-2-cardList-grid);
+    --card-width: var(--card-width);
+    --card-height: var(--card-height);
     --card-border-width: 5px;
     --card-border-color: var(--theme-2-card-border-color);
     --card-border-radius: var(--theme-2-card-border-radius);

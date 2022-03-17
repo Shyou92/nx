@@ -2,16 +2,52 @@
 
 section[appsCardSize] {
 
-  --card-width: 350px;
-  --card-height: 350px;
+  --card-width: 250px;
+  --card-height: 250px;
+  --cardList-grid: 250px;
 
   &.large {
-    --card-width: 500px;
-    --card-height: 500px;
+
+    --cardList-grid: var(--custom-cardList-grid-size-large);
+
+    --card-width: var(--custom-card-width-size-large);
+    --card-height: var(--custom-card-height-size-large);
+
+    --button-width: var(--custom-button-width-size-large);
+    --button-height: var(--custom-button-height-size-large);
+
+    --card-image-height: var(--custom-image-height-size-large);
   }
   
   &.small {
-    --card-width: 200px;
-    --card-height: 200px;
+
+    --cardList-grid: var(--custom-cardList-grid-size-small);
+
+    --card-width: var(--custom-card-width-size-small);
+    --card-height: var(--custom-card-height-size-small);
+
+    --card-image-height: var(--custom-image-height-size-small);
   }
+
+}
+
+button[appsButtonSize] {
+
+    --button-width: 75px;
+    --button-height: 75px;
+  
+  
+    &.large {
+      --button-width: var(--custom-button-width-size-large, 100px);
+      --button-height: var(--custom-button-height-size-large, 100px);
+      --button-padding: var(--custom-button-padding-size-large, 1.3rem);
+      --button-font-size: var(--custom-button-fontSize-size-large, 28px);
+  }
+  
+    &.small {
+      --button-width: var(--custom-button-width-size-small, 50px);
+      --button-height: var(--custom-button-height-size-small, 50px);
+      --button-padding: var(--custom-button-padding-size-small, 1.3rem);
+      --button-font-size: var(--custom-button-fontSize-size-small, 12px);
+    }
 }

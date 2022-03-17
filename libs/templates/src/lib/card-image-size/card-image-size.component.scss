@@ -1,0 +1,12 @@
+:host {
+
+  height: 225px;
+
+  &.large {
+    height: var(--card-image-height, 185px);
+  }
+
+  &.small {
+    height: var(--card-image-height, 185px);
+  }
+}

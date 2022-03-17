@@ -17,13 +17,36 @@
   --button-padding: var(--theme-1-button-padding);
   --button-font-size: var(--theme-1-button-font-size);
 
-  --cardList-grid: var(--theme-1-cardList-grid);
+  --custom-card-width-size-large: 350px;
+  --custom-card-height-size-large: 500px;
 
-  // --card-width: 310px;
+  --custom-card-width-size-small: 250px;
+  --custom-card-height-size-small: 300px;
+
+  --custom-image-height-size-large: 250px;
+
+  --custom-image-height-size-small: 75px;
+
+  --custom-button-width-size-large: 250px;
+  --custom-button-height-size-large: 85px;
+  --custom-button-padding-size-large: 2rem 3rem;
+  --custom-button-fontSize-size-large: 20px;
+
+  --custom-button-width-size-small: 170px;
+  --custom-button-height-size-small: 50px;
+  --custom-button-padding-size-small: 0;
+  --custom-button-fontSize-size-small: 16px;
+
+  --custom-cardList-grid-size-large: 350px;
+  --custom-cardList-grid-size-small: 270px;
+
+  --cardList-grid: var(--theme-1-cardList-grid);
+  --card-width: var(--card-width);
+  --card-height: var(--card-height);
   --card-border-width: 2px;
   --card-border-color: var(--default-theme-color-brand);
   --card-border-radius: var(--theme-1-card-border-radius);
   --card-border-style: double;
   --card-padding: 10px;
-  --card-align-items: start;
+  --card-align-items: center;
 }

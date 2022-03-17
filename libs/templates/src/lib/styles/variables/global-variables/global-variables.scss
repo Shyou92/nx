@@ -29,7 +29,7 @@
 
   /* CardList */
 
-  --theme-1-cardList-grid: 310px;
+  --theme-1-cardList-grid: var(--cardList-grid);
 
   /* Card */
   --theme-1-card-border-color: rgb(83, 59, 59);
@@ -56,7 +56,7 @@
 
   /* CardList */
 
-  --theme-2-cardList-grid: 400px;
+  --theme-2-cardList-grid: var(--cardList-grid);
 
   /* Card */
   --theme-2-card-border-color: green;
@@ -84,7 +84,7 @@
 
   /* CardList */
 
-  --theme-3-cardList-grid: 350px;
+  --theme-3-cardList-grid: var(--cardList-grid);
 
   /* Card */
   --theme-3-card-border-color: grey;

@@ -8,6 +8,8 @@
   padding: var(--button-padding);
   transition: var(--button-transition);
   color: var(--button-text-color);
+  width: var(--button-width);
+  height: var(--button-height);
   cursor: pointer;
 
   &:hover,

@@ -1,4 +1,4 @@
-import { Component, ElementRef, HostBinding, Input } from '@angular/core';
+import { Component, HostBinding, Input } from '@angular/core';
 
 @Component({
   selector: '[appsCardSize]',
@@ -16,7 +16,4 @@ export class CardSizeComponent {
   @HostBinding('class.small') get getClassSizeSmall() {
     return this.cardSize === "small";
   };
-
-  constructor( private el: ElementRef, ) {}
-
 }

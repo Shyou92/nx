@@ -3,16 +3,21 @@ import { CommonModule } from '@angular/common';
 import { TemplateMarkupComponent } from './template-markup/template-markup.component';
 import { CardSizeComponent } from './card-size.directive';
 import { FormsModule } from '@angular/forms';
+import { ButtonSizeComponent } from './button-size/button-size.component';
+import { CardImageSizeComponent } from './card-image-size/card-image-size.component';
 
 @NgModule({
   imports: [CommonModule, FormsModule],
   declarations: [
     TemplateMarkupComponent,
     CardSizeComponent,
+    ButtonSizeComponent,
+    CardImageSizeComponent,
   ],
   exports: [
     TemplateMarkupComponent,
-    CardSizeComponent
+    CardSizeComponent,
+    ButtonSizeComponent,
   ],
 })
 export class TemplatesModule {}

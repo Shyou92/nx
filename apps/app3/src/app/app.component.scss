@@ -13,7 +13,14 @@
 
   --cardList-grid: var(--theme-3-cardList-grid);
 
-  --card-width: 285px;
+  --custom-card-width-size-large: 350px;
+  --custom-card-height-size-large: 500px;
+
+  --custom-card-width-size-small: 250px;
+  --custom-card-height-size-small: 475px;
+
+  --card-width: var(--card-width);
+  --card-height: var(--card-height);
   --card-border-width: 1px;
   --card-border-color: var(--theme-3-card-border-color);
   --card-border-radius: var(--theme-3-card-border-radius);
