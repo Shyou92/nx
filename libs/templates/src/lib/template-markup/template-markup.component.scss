@@ -1,5 +1,22 @@
 // Initial css variables
 
+.cardList[appsCardListGrid] {
+
+  --cardList-grid: 300px;
+  --cardList-gap: 40px;
+
+  &.large {
+    --cardList-grid: var(--custom-cardList-grid-size-large);
+    --cardList-gap: var(--custom-cardList-gap-size-large);
+  }
+
+  &.small {
+    --cardList-grid: var(--custom-cardList-grid-size-small);
+    --cardList-gap: var(--custom-cardList-gap-size-small);
+  }
+  
+}
+
 section[appsCardSize] {
 
   --card-width: 250px;
@@ -8,8 +25,6 @@ section[appsCardSize] {
 
   &.large {
 
-    --cardList-grid: var(--custom-cardList-grid-size-large);
-
     --card-width: var(--custom-card-width-size-large);
     --card-height: var(--custom-card-height-size-large);
 
@@ -17,11 +32,12 @@ section[appsCardSize] {
     --button-height: var(--custom-button-height-size-large);
 
     --card-image-height: var(--custom-image-height-size-large);
+
   }
   
   &.small {
 
-    --cardList-grid: var(--custom-cardList-grid-size-small);
+    --cardList-gap: var(--custom-cardList-gap-size-small);
 
     --card-width: var(--custom-card-width-size-small);
     --card-height: var(--custom-card-height-size-small);

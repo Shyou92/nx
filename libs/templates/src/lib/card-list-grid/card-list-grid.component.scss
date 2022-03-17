@@ -1,0 +1,17 @@
+:host {
+
+  grid-template-columns: repeat(auto-fill, minmax(310px, 1fr));
+  grid-gap: 2rem;
+  
+
+  &.large {
+    grid-template-columns: repeat(auto-fill, minmax(var(--cardList-grid), 350px));
+    grid-gap: var(--cardList-gap, 30px);
+  }
+
+  &.small {
+    grid-template-columns: repeat(auto-fill, minmax(var(--cardList-grid), 250px));
+    grid-gap: var(--cardList-gap, 10px);
+  }
+  
+}

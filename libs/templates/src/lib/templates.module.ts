@@ -5,6 +5,7 @@ import { CardSizeComponent } from './card-size.directive';
 import { FormsModule } from '@angular/forms';
 import { ButtonSizeComponent } from './button-size/button-size.component';
 import { CardImageSizeComponent } from './card-image-size/card-image-size.component';
+import { CardListGridComponent } from './card-list-grid/card-list-grid.component';
 
 @NgModule({
   imports: [CommonModule, FormsModule],
@@ -13,6 +14,7 @@ import { CardImageSizeComponent } from './card-image-size/card-image-size.compon
     CardSizeComponent,
     ButtonSizeComponent,
     CardImageSizeComponent,
+    CardListGridComponent,
   ],
   exports: [
     TemplateMarkupComponent,

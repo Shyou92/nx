@@ -20,7 +20,7 @@
   --custom-card-width-size-large: 350px;
   --custom-card-height-size-large: 500px;
 
-  --custom-card-width-size-small: 250px;
+  --custom-card-width-size-small: 270px;
   --custom-card-height-size-small: 300px;
 
   --custom-image-height-size-large: 250px;
@@ -38,11 +38,13 @@
   --custom-button-fontSize-size-small: 16px;
 
   --custom-cardList-grid-size-large: 350px;
+
   --custom-cardList-grid-size-small: 270px;
 
-  --cardList-grid: var(--theme-1-cardList-grid);
-  --card-width: var(--card-width);
-  --card-height: var(--card-height);
+  --custom-cardList-gap-size-large: 3rem;
+  --custom-cardList-gap-size-small: 2rem;
+
+
   --card-border-width: 2px;
   --card-border-color: var(--default-theme-color-brand);
   --card-border-radius: var(--theme-1-card-border-radius);
