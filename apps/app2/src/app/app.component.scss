@@ -21,17 +21,37 @@
 
     --custom-card-width-size-large: 400px;
     --custom-card-height-size-large: 500px;
-  
-    --custom-card-width-size-small: 250px;
-    --custom-card-height-size-small: 550px;
+    
+    --custom-card-width-size-small: 220px;
+    --custom-card-height-size-small: 300px;
+      
+    --custom-image-height-size-large: 250px;
 
-    --cardList-grid: var(--theme-2-cardList-grid);
-    --card-width: var(--card-width);
-    --card-height: var(--card-height);
+    --custom-image-height-size-small: 75px;
+
+    --custom-button-width-size-large: 400px;
+    --custom-button-height-size-large: 85px;
+    --custom-button-padding-size-large: 2rem 3rem;
+    --custom-button-fontSize-size-large: 20px;
+
+    --custom-button-width-size-small: 120px;
+    --custom-button-height-size-small: 50px;
+    --custom-button-padding-size-small: 0;
+    --custom-button-fontSize-size-small: 16px;
+
+    --custom-cardList-grid-size-large: 400px;
+
+    --custom-cardList-grid-size-small: 270px;
+
+    --custom-cardList-gap-size-large: 3rem;
+    --custom-cardList-gap-size-small: 1rem;
+
+
     --card-border-width: 5px;
     --card-border-color: var(--theme-2-card-border-color);
     --card-border-radius: var(--theme-2-card-border-radius);
     --card-border-style: solid;
     --card-padding: 10px;
     --card-align-items: end;
-  }
+  
+}

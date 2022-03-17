@@ -11,16 +11,34 @@
   --header-justify-text: var(--theme-3-header-justify-text);
   --header-align-text: var(--theme-3-header-align-text);
 
-  --cardList-grid: var(--theme-3-cardList-grid);
-
-  --custom-card-width-size-large: 350px;
+  --custom-card-width-size-large: 450px;
   --custom-card-height-size-large: 500px;
 
   --custom-card-width-size-small: 250px;
-  --custom-card-height-size-small: 475px;
+  --custom-card-height-size-small: 375px;
 
-  --card-width: var(--card-width);
-  --card-height: var(--card-height);
+  --custom-image-height-size-large: 250px;
+
+  --custom-image-height-size-small: 175px;
+
+  --custom-button-width-size-large: 90%;
+  --custom-button-height-size-large: 85px;
+  --custom-button-padding-size-large: 0;
+  --custom-button-fontSize-size-large: 36px;
+
+  --custom-button-width-size-small: 80px;
+  --custom-button-height-size-small: 30px;
+  --custom-button-padding-size-small: 0;
+  --custom-button-fontSize-size-small: 14px;
+
+  --custom-cardList-grid-size-large: 500px;
+
+  --custom-cardList-grid-size-small: 270px;
+
+  --custom-cardList-gap-size-large: 3rem;
+  --custom-cardList-gap-size-small: 1rem;
+
+
   --card-border-width: 1px;
   --card-border-color: var(--theme-3-card-border-color);
   --card-border-radius: var(--theme-3-card-border-radius);
@@ -32,8 +50,6 @@
   --button-like-background-hover: var(--theme-3-button-like-hover);
   --button-font-family: var(--theme-3-font-family-primary);
   --button-text-color: var(--theme-3-button-text-color);
-  --button-padding: var(--theme-3-button-padding);
-  --button-font-size: var(--theme-3-button-font-size);
   --button-transition: var(--theme-3-transition);
   --button-border-style: var(--theme-3-button-border-style);
 }
