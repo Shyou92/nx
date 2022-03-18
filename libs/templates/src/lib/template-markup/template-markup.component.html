@@ -1,15 +1,15 @@
 <h2 class="header">The very awesome Header</h2>
 
-  <ul class="cardList" appsCardListGrid [cardSize]="cardSize">
-    <li class="cardList__item" *ngFor="let card of cardList">
-      <section class="card" appsCardSize [cardSize]="cardSize">
+  <apps-card-list-grid class="cardList" [cardSize]="cardSize">
+    <section class="cardList__item" *ngFor="let card of cardList">
+      <apps-card-size [cardSize]="cardSize" class="card">
         <h2 class="card__title">{{card.title}}</h2>
-        <img src="{{ card.image! || image }}" alt={{image}} appsCardImageSize [cardSize]="cardSize" class="card__image" />
+        <apps-card-image-size [cardSize]="cardSize" [image]="image" class="card__image"></apps-card-image-size>
         <p class="card__text">
           {{card.text}}
         </p>
-        <button class="button" appsButtonSize [cardSize]="cardSize">Like it</button>
-      </section>
-    </li>
-  </ul>
+        <apps-button-size class="button" [cardSize]="cardSize">Like it</apps-button-size>
+    </apps-card-size>
+  </section>
+</apps-card-list-grid>  
 

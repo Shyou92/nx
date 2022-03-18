@@ -1,7 +1,7 @@
 import { Component, HostBinding, Input, } from '@angular/core';
 
 @Component({
-  selector: '[appsButtonSize]',
+  selector: 'apps-button-size',
   templateUrl: './button-size.component.html',
   styleUrls: ['./button-size.component.scss']
 })

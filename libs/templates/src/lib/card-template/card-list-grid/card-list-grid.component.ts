@@ -1,7 +1,7 @@
 import { Component, HostBinding, Input } from '@angular/core';
 
 @Component({
-  selector: '[appsCardListGrid]',
+  selector: 'apps-card-list-grid',
   templateUrl: './card-list-grid.component.html',
   styleUrls: ['./card-list-grid.component.scss']
 })

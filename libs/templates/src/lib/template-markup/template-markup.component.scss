@@ -1,9 +1,10 @@
 // Initial css variables
 
-.cardList[appsCardListGrid] {
+apps-card-list-grid {
 
   --cardList-grid: 300px;
   --cardList-gap: 40px;
+  margin-bottom: 20%;
 
   &.large {
     --cardList-grid: var(--custom-cardList-grid-size-large);
@@ -17,7 +18,7 @@
   
 }
 
-section[appsCardSize] {
+apps-card-size {
 
   --card-width: 250px;
   --card-height: 250px;
@@ -27,43 +28,51 @@ section[appsCardSize] {
 
     --card-width: var(--custom-card-width-size-large);
     --card-height: var(--custom-card-height-size-large);
-
     --button-width: var(--custom-button-width-size-large);
     --button-height: var(--custom-button-height-size-large);
-
-    --card-image-height: var(--custom-image-height-size-large);
-
+    
   }
   
   &.small {
 
     --cardList-gap: var(--custom-cardList-gap-size-small);
-
     --card-width: var(--custom-card-width-size-small);
     --card-height: var(--custom-card-height-size-small);
-
-    --card-image-height: var(--custom-image-height-size-small);
   }
 
 }
 
-button[appsButtonSize] {
+  apps-button-size {
 
     --button-width: 75px;
     --button-height: 75px;
     transition: var(--theme-transition);
+    display: flex;
+    justify-content: center;
+    align-items: center;
   
     &.large {
       --button-width: var(--custom-button-width-size-large, 100px);
       --button-height: var(--custom-button-height-size-large, 100px);
-      --button-padding: var(--custom-button-padding-size-large, 1.3rem);
       --button-font-size: var(--custom-button-fontSize-size-large, 28px);
   }
   
     &.small {
       --button-width: var(--custom-button-width-size-small, 50px);
       --button-height: var(--custom-button-height-size-small, 50px);
-      --button-padding: var(--custom-button-padding-size-small, 1.3rem);
       --button-font-size: var(--custom-button-fontSize-size-small, 12px);
     }
 }
+
+  apps-card-image-size {
+
+    --card-image-height: 100px;
+
+    &.large {
+      --card-image-height: var(--custom-image-height-size-large);
+    }
+
+    &.small {
+      --card-image-height: var(--custom-image-height-size-small);
+    }
+  }

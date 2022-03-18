@@ -1,7 +1,7 @@
 import { Component, HostBinding, Input,  } from '@angular/core';
 
 @Component({
-  selector: '[appsCardSize]',
+  selector: 'apps-card-size',
   templateUrl: './card-size.component.html',
   styleUrls: ['./card-size.component.scss']
 })
