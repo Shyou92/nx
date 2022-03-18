@@ -1,9 +1,9 @@
-import { Component, HostBinding, Input } from '@angular/core';
+import { Component, HostBinding, Input,  } from '@angular/core';
 
 @Component({
   selector: '[appsCardSize]',
-  templateUrl: './card-size.directive.html',
-  styleUrls: ['./card-size.directive.scss'],
+  templateUrl: './card-size.component.html',
+  styleUrls: ['./card-size.component.scss']
 })
 export class CardSizeComponent {
 
