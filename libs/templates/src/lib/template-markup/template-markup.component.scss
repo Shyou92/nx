@@ -51,7 +51,7 @@ button[appsButtonSize] {
 
     --button-width: 75px;
     --button-height: 75px;
-  
+    transition: var(--theme-transition);
   
     &.large {
       --button-width: var(--custom-button-width-size-large, 100px);

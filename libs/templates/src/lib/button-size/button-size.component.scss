@@ -2,7 +2,7 @@
 
   width: 75px;
   height: 75px;
-
+  transition: var(--theme-transition);
 
   &.large {
     width: var(--button-width, 100px);

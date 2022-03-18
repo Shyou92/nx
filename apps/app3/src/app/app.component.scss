@@ -11,6 +11,15 @@
   --header-justify-text: var(--theme-3-header-justify-text);
   --header-align-text: var(--theme-3-header-align-text);
 
+  --button-like-background: var(--theme-3-color-brand);
+  --button-like-background-hover: var(--theme-3-button-like-hover);
+  --button-font-family: var(--theme-3-font-family-primary);
+  --button-text-color: var(--theme-3-button-text-color);
+  --button-transition: var(--theme-3-transition);
+  --button-border-style: var(--theme-3-button-border-style);
+  
+  --theme-transition: var(--theme-3-transition);
+
   --custom-card-width-size-large: 450px;
   --custom-card-height-size-large: 500px;
 
@@ -46,10 +55,5 @@
   --card-padding: 10px;
   --card-align-items: center;
 
-  --button-like-background: var(--theme-3-color-brand);
-  --button-like-background-hover: var(--theme-3-button-like-hover);
-  --button-font-family: var(--theme-3-font-family-primary);
-  --button-text-color: var(--theme-3-button-text-color);
-  --button-transition: var(--theme-3-transition);
-  --button-border-style: var(--theme-3-button-border-style);
+
 }
